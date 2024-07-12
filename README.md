@@ -2,17 +2,17 @@
 ### String (and chars) types
 * char: only contain one character can be interpreted by UTF-8. 
 ```rust 
-let char_one: char = 'E'
+let char_one: char = 'E';
 ```
 * &str: inmutable string type, used to store slice of string without copying
 ```rust
-let mut string_one = "example text" // this no make sense because is a &str type (can't mutate)
+let mut string_one = "example text"; // this no make sense because is a &str type (can't mutate)
 ```
 * String: mutable string type
 ```rust
-let mut greeting = String::format("hi world!")
-greeting = String::format("bye world!") // ✅ Change the value of greeting to "bye world!" (formatted to String)
-greeting = "goodbye!" // ❌ This tries to reasign greeting type to &str
+let mut greeting = String::from("hi world!");
+greeting = String::from("bye world!"); // ✅ Change the value of greeting to "bye world!" (formatted to String)
+greeting = "goodbye!"; // ❌ This tries to reasign greeting type to &str
 ```
 ### Integer types
 #### i -> integers (- and +)
