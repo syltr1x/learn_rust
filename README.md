@@ -29,3 +29,6 @@ greeting = "goodbye!"; // ❌ This tries to reasign greeting type to &str
 * u32  -> 4294967296
 * u64  -> 18446744073709551615
 * u128 -> 340282366920938463463374607431768211455
+
+## Projects
+* [Emoji Selector](https://github.com/syltr1x/learn_rust/main/blob/emoji_sel/main.rs)
